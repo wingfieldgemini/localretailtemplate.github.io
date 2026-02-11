@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kōwhai Collective — Curated Local Goods, Wellington NZ</title>
+  <meta name="description" content="Kōwhai Collective is Wellington's neighbourhood boutique for curated NZ-made homewares, artisan gifts, skincare, and more. Visit us in the heart of the CBD.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner container">
+      <a href="#" class="nav__logo">Kōwhai<span>Collective</span></a>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__menu" id="navMenu">
+        <li><a href="#collections">Collections</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">In Store</a></li>
+        <li><a href="#testimonials">Reviews</a></li>
+        <li><a href="#location">Visit</a></li>
+        <li><a href="#contact" class="nav__cta">Get in Touch</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero" id="hero">
+    <div class="hero__shimmer"></div>
+    <div class="hero__floats">
+      <div class="hero__float hero__float--1"></div>
+      <div class="hero__float hero__float--2"></div>
+      <div class="hero__float hero__float--3"></div>
+    </div>
+    <div class="hero__content container">
+      <p class="hero__tag reveal">Wellington's Neighbourhood Boutique</p>
+      <h1 class="hero__title reveal">Curated with<br><em>care & craft</em></h1>
+      <p class="hero__sub reveal">Handpicked homewares, artisan gifts, and NZ-made treasures — all under one welcoming roof in the heart of Wellington.</p>
+      <div class="hero__actions reveal">
+        <a href="#collections" class="btn btn--primary">Shop Collections</a>
+        <a href="#location" class="btn btn--outline">Visit Us</a>
+      </div>
+    </div>
+    <svg class="section-divider" viewBox="0 0 1440 80" preserveAspectRatio="none"><path d="M0,80 C360,20 720,60 1080,10 C1260,-10 1380,30 1440,20 L1440,80 Z" fill="var(--cream)"/></svg>
+  </header>
+
+  <!-- Trust Badges -->
+  <section class="badges">
+    <div class="container badges__grid">
+      <div class="badge reveal">
+        <svg class="badge__icon" viewBox="0 0 48 48"><circle cx="24" cy="24" r="22" fill="none" stroke="currentColor" stroke-width="2"/><path d="M16 24l6 6 10-12" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <h3>NZ Made</h3>
+        <p>Proudly stocking local artisans</p>
+      </div>
+      <div class="badge reveal">
+        <svg class="badge__icon" viewBox="0 0 48 48"><rect x="10" y="18" width="28" height="22" rx="3" fill="none" stroke="currentColor" stroke-width="2"/><path d="M24 8v10M16 18c0-4.4 3.6-8 8-8s8 3.6 8 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M18 28h12M18 34h8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <h3>Gift Wrapping</h3>
+        <p>Complimentary with every purchase</p>
+      </div>
+      <div class="badge reveal">
+        <svg class="badge__icon" viewBox="0 0 48 48"><path d="M24 6l4.5 9.2 10.1 1.5-7.3 7.1 1.7 10.1L24 29.2l-9 4.7 1.7-10.1-7.3-7.1 10.1-1.5z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+        <h3>Loyalty Rewards</h3>
+        <p>Earn points with every visit</p>
+      </div>
+      <div class="badge reveal">
+        <svg class="badge__icon" viewBox="0 0 48 48"><rect x="6" y="20" width="36" height="20" rx="3" fill="none" stroke="currentColor" stroke-width="2"/><path d="M14 20v-6a10 10 0 0120 0v6" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="24" cy="30" r="3" fill="currentColor"/></svg>
+        <h3>Free Local Delivery</h3>
+        <p>Within Wellington CBD</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Collections -->
+  <section class="collections" id="collections">
+    <svg class="section-divider section-divider--top" viewBox="0 0 1440 60" preserveAspectRatio="none"><path d="M0,0 C480,50 960,10 1440,40 L1440,0 L0,0 Z" fill="var(--cream)"/></svg>
+    <div class="container">
+      <h2 class="section-title reveal">Our Collections</h2>
+      <p class="section-sub reveal">Thoughtfully curated, lovingly sourced — each collection tells a story.</p>
+      <div class="collections__grid">
+        <a href="#" class="collection-card reveal">
+          <div class="collection-card__visual" style="--hue:340">
+            <svg viewBox="0 0 80 80"><circle cx="40" cy="40" r="30" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M30 50c0-10 20-10 20 0M34 36a3 3 0 106 0 3 3 0 00-6 0M40 36a3 3 0 106 0 3 3 0 00-6 0" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+          </div>
+          <h3>Homewares &amp; Gifts</h3>
+          <p>Ceramics, textiles &amp; treasures for the home</p>
+        </a>
+        <a href="#" class="collection-card reveal">
+          <div class="collection-card__visual" style="--hue:20">
+            <svg viewBox="0 0 80 80"><path d="M25 55V25h30v30H25zM35 25v-5a5 5 0 0110 0v5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M32 35h16M32 42h10" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3>NZ-Made Products</h3>
+          <p>The best of Aotearoa's makers</p>
+        </a>
+        <a href="#" class="collection-card reveal">
+          <div class="collection-card__visual" style="--hue:280">
+            <svg viewBox="0 0 80 80"><circle cx="40" cy="32" r="12" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M28 55c0-8 5.4-14 12-14s12 6 12 14" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M46 28l6-6M50 30l4-2" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Artisan Goods</h3>
+          <p>Handcrafted by talented creatives</p>
+        </a>
+        <a href="#" class="collection-card reveal">
+          <div class="collection-card__visual" style="--hue:200">
+            <svg viewBox="0 0 80 80"><path d="M30 20h20v40l-10-8-10 8V20z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+          </div>
+          <h3>Clothing &amp; Accessories</h3>
+          <p>Ethical fashion, local labels</p>
+        </a>
+        <a href="#" class="collection-card reveal">
+          <div class="collection-card__visual" style="--hue:160">
+            <svg viewBox="0 0 80 80"><ellipse cx="40" cy="45" rx="16" ry="12" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M40 33v-10M36 27l4-4 4 4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Skincare &amp; Wellness</h3>
+          <p>Natural, NZ-sourced body care</p>
+        </a>
+        <a href="#" class="collection-card reveal">
+          <div class="collection-card__visual" style="--hue:50">
+            <svg viewBox="0 0 80 80"><rect x="25" y="22" rx="2" width="30" height="38" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M32 30h16M32 37h12M32 44h8" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Stationery</h3>
+          <p>Beautiful paper goods &amp; journals</p>
+        </a>
+        <a href="#" class="collection-card reveal">
+          <div class="collection-card__visual" style="--hue:300">
+            <svg viewBox="0 0 80 80"><circle cx="40" cy="34" r="10" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M30 58c0-7 4.5-12 10-12s10 5 10 12" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="40" cy="34" r="4" fill="none" stroke="currentColor" stroke-width="1"/></svg>
+          </div>
+          <h3>Kids &amp; Baby</h3>
+          <p>Gentle, safe, and adorable finds</p>
+        </a>
+        <a href="#" class="collection-card reveal">
+          <div class="collection-card__visual" style="--hue:30">
+            <svg viewBox="0 0 80 80"><rect x="28" y="30" width="24" height="24" rx="3" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M34 30v-6a6 6 0 0112 0v6M36 40h8M36 46h5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Food &amp; Pantry</h3>
+          <p>Local jams, honey, chocolate &amp; more</p>
+        </a>
+        <a href="#" class="collection-card reveal">
+          <div class="collection-card__visual" style="--hue:10">
+            <svg viewBox="0 0 80 80"><path d="M40 22c-4 0-7 5-7 14s3 14 7 14 7-5 7-14-3-14-7-14z" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M33 36h14" fill="none" stroke="currentColor" stroke-width="1" stroke-dasharray="2 2"/></svg>
+          </div>
+          <h3>Candles &amp; Fragrances</h3>
+          <p>Hand-poured soy candles &amp; scents</p>
+        </a>
+        <a href="#" class="collection-card reveal">
+          <div class="collection-card__visual" style="--hue:120">
+            <svg viewBox="0 0 80 80"><path d="M24 56l16-32 16 32H24z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><circle cx="40" cy="42" r="5" fill="none" stroke="currentColor" stroke-width="1"/></svg>
+          </div>
+          <h3>Seasonal Collections</h3>
+          <p>Limited editions for every season</p>
+        </a>
+      </div>
+    </div>
+    <svg class="section-divider" viewBox="0 0 1440 60" preserveAspectRatio="none"><path d="M0,60 C360,10 720,50 1080,20 S1380,40 1440,30 L1440,60 Z" fill="var(--white)"/></svg>
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <div class="container about__inner">
+      <div class="about__text">
+        <h2 class="section-title reveal">About Kōwhai Collective</h2>
+        <p class="reveal">Nestled in the heart of Wellington's vibrant CBD, Kōwhai Collective is more than a shop — it's a gathering place for beautiful things made with intention.</p>
+        <p class="reveal">We opened our doors in 2019 with a simple belief: that the things we bring into our homes should be made thoughtfully, sourced ethically, and carry a story worth telling.</p>
+        <p class="reveal">Named after the kōwhai — Aotearoa's beloved golden-flowering native tree — our boutique celebrates the beauty of New Zealand craft. Every item on our shelves has been hand-selected by our team, and many come directly from the makers themselves.</p>
+        <p class="reveal">Whether you're searching for the perfect gift, treating yourself, or just popping in for a browse and a chat, you'll always find a warm welcome here.</p>
+      </div>
+      <div class="about__visual reveal">
+        <div class="about__image-placeholder">
+          <svg viewBox="0 0 400 500" fill="none">
+            <rect width="400" height="500" rx="20" fill="var(--plum-light)"/>
+            <circle cx="200" cy="200" r="80" stroke="var(--plum)" stroke-width="2" fill="none"/>
+            <path d="M200 120c-20 30-10 60 0 80s20 50 0 80" stroke="var(--plum)" stroke-width="2" fill="none"/>
+            <path d="M160 200h80" stroke="var(--rose)" stroke-width="1.5" stroke-dasharray="4 4"/>
+            <text x="200" y="420" text-anchor="middle" font-family="Playfair Display" font-size="20" fill="var(--plum)">Est. 2019 · Wellington</text>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Shop Local -->
+  <section class="shop-local" id="shop-local">
+    <svg class="section-divider section-divider--top" viewBox="0 0 1440 60" preserveAspectRatio="none"><path d="M0,0 C240,50 720,10 1200,45 L1440,30 L1440,0 L0,0 Z" fill="var(--white)"/></svg>
+    <div class="container">
+      <h2 class="section-title reveal">Why Shop Local?</h2>
+      <p class="section-sub reveal">Every purchase here makes a real difference — to our makers, our community, and our city.</p>
+      <div class="shop-local__grid">
+        <div class="local-card reveal">
+          <div class="local-card__number">01</div>
+          <h3>Support NZ Makers</h3>
+          <p>Your dollar goes directly to talented artisans and small producers across Aotearoa, helping them do what they love.</p>
+        </div>
+        <div class="local-card reveal">
+          <div class="local-card__number">02</div>
+          <h3>Strengthen Community</h3>
+          <p>Local businesses are the heartbeat of Wellington. Shopping here keeps our CBD vibrant and connected.</p>
+        </div>
+        <div class="local-card reveal">
+          <div class="local-card__number">03</div>
+          <h3>Reduce Your Footprint</h3>
+          <p>Less shipping, less packaging, more sustainable choices. Feel good about every purchase you make.</p>
+        </div>
+        <div class="local-card reveal">
+          <div class="local-card__number">04</div>
+          <h3>Discover Unique Finds</h3>
+          <p>You won't find our products in chain stores. Every item is chosen for its quality, story, and craftsmanship.</p>
+        </div>
+      </div>
+    </div>
+    <svg class="section-divider" viewBox="0 0 1440 60" preserveAspectRatio="none"><path d="M0,60 C480,10 960,50 1440,20 L1440,60 Z" fill="var(--cream)"/></svg>
+  </section>
+
+  <!-- In-Store Experience -->
+  <section class="experience" id="experience">
+    <div class="container">
+      <h2 class="section-title reveal">The In-Store Experience</h2>
+      <p class="section-sub reveal">Step inside and feel the difference. Kōwhai Collective is designed to be a space you want to linger in.</p>
+      <div class="experience__grid">
+        <div class="exp-card reveal">
+          <div class="exp-card__icon">
+            <svg viewBox="0 0 56 56"><path d="M28 8c-10 0-18 8-18 18v14h36V26c0-10-8-18-18-18z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M20 40v4a8 8 0 0016 0v-4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="28" cy="26" r="4" fill="currentColor" opacity="0.3"/></svg>
+          </div>
+          <h3>Curated Selection</h3>
+          <p>Every item on our shelves has been hand-picked. We visit makers, test products, and only stock things we genuinely love. Quality over quantity, always.</p>
+        </div>
+        <div class="exp-card reveal">
+          <div class="exp-card__icon">
+            <svg viewBox="0 0 56 56"><circle cx="28" cy="20" r="10" fill="none" stroke="currentColor" stroke-width="2"/><path d="M14 48c0-10 6.3-16 14-16s14 6 14 16" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+          </div>
+          <h3>Friendly, Knowledgeable Staff</h3>
+          <p>Our team knows every product and every maker. Need a recommendation? We'll help you find exactly the right thing — no pressure, just genuine enthusiasm.</p>
+        </div>
+        <div class="exp-card reveal">
+          <div class="exp-card__icon">
+            <svg viewBox="0 0 56 56"><rect x="12" y="16" width="32" height="28" rx="4" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 24h32M28 16v-6M20 10h16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M22 32h12M22 38h8" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Complimentary Gift Wrapping</h3>
+          <p>Every purchase can be beautifully wrapped in our signature paper at no extra charge. Because presentation matters, especially when it's a gift from the heart.</p>
+        </div>
+        <div class="exp-card reveal">
+          <div class="exp-card__icon">
+            <svg viewBox="0 0 56 56"><polygon points="28,6 33,22 50,22 36,32 41,48 28,38 15,48 20,32 6,22 23,22" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Kōwhai Loyalty Programme</h3>
+          <p>Earn a point for every dollar spent. Reach 200 points and enjoy $20 off your next visit, plus exclusive early access to new collections and seasonal sales.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials" id="testimonials">
+    <svg class="section-divider section-divider--top" viewBox="0 0 1440 60" preserveAspectRatio="none"><path d="M0,0 C360,50 720,10 1080,40 S1360,15 1440,25 L1440,0 L0,0 Z" fill="var(--cream)"/></svg>
+    <div class="container">
+      <h2 class="section-title reveal">What Our Customers Say</h2>
+      <p class="section-sub reveal">Don't just take our word for it — hear from the Wellington locals who keep coming back.</p>
+      <div class="testimonials__grid">
+        <blockquote class="testimonial reveal">
+          <div class="testimonial__stars">★★★★★</div>
+          <p>"Kōwhai Collective is my go-to for gifts. The staff always help me find something perfect, and the free gift wrapping is a lifesaver. My friends think I have incredible taste — I just have a great local shop!"</p>
+          <cite>
+            <strong>Sarah M.</strong>
+            <span>Thorndon</span>
+          </cite>
+        </blockquote>
+        <blockquote class="testimonial reveal">
+          <div class="testimonial__stars">★★★★★</div>
+          <p>"I popped in on a rainy Saturday and ended up staying for half an hour just browsing. Everything is so beautifully presented, and I love knowing that I'm supporting NZ makers. The soy candles are absolutely divine."</p>
+          <cite>
+            <strong>James &amp; Aroha K.</strong>
+            <span>Mt Victoria</span>
+          </cite>
+        </blockquote>
+        <blockquote class="testimonial reveal">
+          <div class="testimonial__stars">★★★★★</div>
+          <p>"As someone who tries to shop locally wherever possible, finding Kōwhai was a dream. The skincare range is gorgeous, the stationery is to die for, and every visit feels like catching up with friends. Highly recommend!"</p>
+          <cite>
+            <strong>Priya D.</strong>
+            <span>Kelburn</span>
+          </cite>
+        </blockquote>
+        <blockquote class="testimonial reveal">
+          <div class="testimonial__stars">★★★★★</div>
+          <p>"Moved to Welly last year and this was one of the first shops I fell in love with. The loyalty programme is great — I've already earned two rewards! The team remembers my name, which honestly makes my day."</p>
+          <cite>
+            <strong>Tom L.</strong>
+            <span>Te Aro</span>
+          </cite>
+        </blockquote>
+      </div>
+    </div>
+    <svg class="section-divider" viewBox="0 0 1440 60" preserveAspectRatio="none"><path d="M0,60 C240,20 720,50 1200,15 L1440,30 L1440,60 Z" fill="var(--white)"/></svg>
+  </section>
+
+  <!-- Location & Hours -->
+  <section class="location" id="location">
+    <div class="container location__inner">
+      <div class="location__info">
+        <h2 class="section-title reveal">Find Us</h2>
+        <div class="location__details reveal">
+          <div class="location__block">
+            <h3>Address</h3>
+            <p>42 Cuba Street<br>Te Aro, Wellington 6011<br>New Zealand</p>
+          </div>
+          <div class="location__block">
+            <h3>Opening Hours</h3>
+            <table class="hours-table">
+              <tr><td>Monday – Saturday</td><td>9:00 am – 5:30 pm</td></tr>
+              <tr><td>Sunday</td><td>10:00 am – 4:00 pm</td></tr>
+              <tr><td>Public Holidays</td><td>Check our socials</td></tr>
+            </table>
+          </div>
+          <div class="location__block">
+            <h3>Parking</h3>
+            <p>Street parking available along Cuba Street and surrounding streets. The Cuba Street car park building is a 2-minute walk. We're also an easy stroll from the Wellington Railway Station and multiple bus routes.</p>
+          </div>
+        </div>
+      </div>
+      <div class="location__map reveal">
+        <div class="map-placeholder">
+          <svg viewBox="0 0 500 400" fill="none">
+            <rect width="500" height="400" rx="16" fill="var(--plum-light)"/>
+            <circle cx="250" cy="180" r="60" stroke="var(--plum)" stroke-width="2" fill="none" stroke-dasharray="4 4"/>
+            <circle cx="250" cy="180" r="8" fill="var(--plum)"/>
+            <text x="250" y="280" text-anchor="middle" font-family="Manrope" font-size="16" fill="var(--plum)">42 Cuba Street, Wellington</text>
+            <text x="250" y="310" text-anchor="middle" font-family="Manrope" font-size="13" fill="var(--text-light)">Interactive map coming soon</text>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <svg class="section-divider section-divider--top" viewBox="0 0 1440 60" preserveAspectRatio="none"><path d="M0,0 C480,50 960,10 1440,40 L1440,0 L0,0 Z" fill="var(--white)"/></svg>
+    <div class="container">
+      <h2 class="section-title reveal">Get in Touch</h2>
+      <p class="section-sub reveal">Questions, custom orders, or just want to say kia ora? We'd love to hear from you.</p>
+      <div class="contact__inner">
+        <div class="contact__details reveal">
+          <div class="contact__item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.12.96.36 1.9.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.91.34 1.85.58 2.81.7A2 2 0 0122 16.92z"/></svg>
+            <div>
+              <h4>Phone</h4>
+              <a href="tel:+6443851042">(04) 385 1042</a>
+            </div>
+          </div>
+          <div class="contact__item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <div>
+              <h4>Email</h4>
+              <a href="mailto:hello@kowhaicollective.co.nz">hello@kowhaicollective.co.nz</a>
+            </div>
+          </div>
+          <div class="contact__item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <div>
+              <h4>Address</h4>
+              <p>42 Cuba Street, Te Aro<br>Wellington 6011, NZ</p>
+            </div>
+          </div>
+          <div class="contact__socials">
+            <a href="#" aria-label="Instagram" class="social-link">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>
+            </a>
+            <a href="#" aria-label="Facebook" class="social-link">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+            </a>
+            <a href="#" aria-label="TikTok" class="social-link">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12a4 4 0 104 4V4a5 5 0 005 5"/></svg>
+            </a>
+          </div>
+        </div>
+        <form class="contact__form reveal" id="contactForm">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required placeholder="Your name">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder="you@example.com">
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <select id="subject" name="subject">
+              <option value="">Select a topic…</option>
+              <option>General enquiry</option>
+              <option>Custom / bulk order</option>
+              <option>Loyalty programme</option>
+              <option>Stockist enquiry</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required placeholder="How can we help?"></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">Send Message</button>
+          <p class="form-success" id="formSuccess">Thanks for reaching out! We'll get back to you within 24 hours.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <svg class="section-divider section-divider--top" viewBox="0 0 1440 60" preserveAspectRatio="none"><path d="M0,0 C360,50 720,15 1080,45 S1380,20 1440,30 L1440,0 L0,0 Z" fill="var(--plum-light)"/></svg>
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="#" class="nav__logo">Kōwhai<span>Collective</span></a>
+        <p>Wellington's neighbourhood boutique for curated NZ-made homewares, artisan gifts, skincare, and more.</p>
+      </div>
+      <div class="footer__links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#collections">Collections</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">In Store</a></li>
+          <li><a href="#testimonials">Reviews</a></li>
+          <li><a href="#location">Visit</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer__links">
+        <h4>Collections</h4>
+        <ul>
+          <li><a href="#">Homewares & Gifts</a></li>
+          <li><a href="#">NZ-Made</a></li>
+          <li><a href="#">Skincare & Wellness</a></li>
+          <li><a href="#">Candles & Fragrances</a></li>
+          <li><a href="#">Kids & Baby</a></li>
+        </ul>
+      </div>
+      <div class="footer__links">
+        <h4>Connect</h4>
+        <ul>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">TikTok</a></li>
+          <li><a href="mailto:hello@kowhaicollective.co.nz">Email Us</a></li>
+          <li><a href="tel:+6443851042">(04) 385 1042</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom container">
+      <p>&copy; 2024 Kōwhai Collective. All rights reserved.</p>
+      <p>Designed by <a href="https://wingfieldgemini.github.io" target="_blank" rel="noopener">WingfieldGemini</a></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
