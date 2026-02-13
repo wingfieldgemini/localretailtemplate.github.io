@@ -397,6 +397,7 @@ h3 { font-size: clamp(1.1rem, 2vw, 1.4rem); }
 }
 
 @media (max-width: 768px) {
+  .hero { min-height: auto; padding: 140px 0 80px; }
   .badges__grid { grid-template-columns: repeat(2, 1fr); gap: 16px; }
 }
 @media (max-width: 480px) {
