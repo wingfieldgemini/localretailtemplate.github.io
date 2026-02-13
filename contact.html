@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Kōwhai Collective</title>
+  <meta name="description" content="Get in touch with Kōwhai Collective. Find our location, opening hours, and contact details. Visit us at 42 Cuba Street, Wellington.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner container">
+      <a href="index.html" class="nav__logo">Kōwhai<span>Collective</span></a>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__menu" id="navMenu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Collections</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+        <li><a href="contact.html" class="nav__cta active">Get in Touch</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <section class="hero" style="min-height:auto; padding: 10rem 0 4rem;">
+    <div class="hero__shimmer"></div>
+    <div class="hero__content container">
+      <nav class="breadcrumb reveal" aria-label="Breadcrumb">
+        <a href="index.html">Home</a> <span>/</span> <strong>Contact</strong>
+      </nav>
+      <h1 class="hero__title reveal" style="font-size:clamp(2rem,5vw,3.5rem)">Get in Touch</h1>
+      <p class="hero__sub reveal">Questions, custom orders, or just want to say kia ora? We'd love to hear from you.</p>
+    </div>
+    <svg class="section-divider" viewBox="0 0 1440 80" preserveAspectRatio="none"><path d="M0,80 C360,20 720,60 1080,10 C1260,-10 1380,30 1440,20 L1440,80 Z" fill="var(--cream)"/></svg>
+  </section>
+
+  <!-- Contact Form & Details -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact__inner">
+        <div class="contact__details reveal">
+          <div class="contact__item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.12.96.36 1.9.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.91.34 1.85.58 2.81.7A2 2 0 0122 16.92z"/></svg>
+            <div>
+              <h4>Phone</h4>
+              <a href="tel:+6443851042">(04) 385 1042</a>
+            </div>
+          </div>
+          <div class="contact__item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <div>
+              <h4>Email</h4>
+              <a href="mailto:hello@kowhaicollective.co.nz">hello@kowhaicollective.co.nz</a>
+            </div>
+          </div>
+          <div class="contact__item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <div>
+              <h4>Address</h4>
+              <p>42 Cuba Street, Te Aro<br>Wellington 6011, NZ</p>
+            </div>
+          </div>
+          <div class="contact__socials">
+            <a href="#" aria-label="Instagram" class="social-link">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>
+            </a>
+            <a href="#" aria-label="Facebook" class="social-link">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+            </a>
+            <a href="#" aria-label="TikTok" class="social-link">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12a4 4 0 104 4V4a5 5 0 005 5"/></svg>
+            </a>
+          </div>
+        </div>
+        <form class="contact__form reveal" id="contactForm">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required placeholder="Your name">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder="you@example.com">
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <select id="subject" name="subject">
+              <option value="">Select a topic…</option>
+              <option>General enquiry</option>
+              <option>Custom / bulk order</option>
+              <option>Loyalty programme</option>
+              <option>Stockist enquiry</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required placeholder="How can we help?"></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">Send Message</button>
+          <p class="form-success" id="formSuccess">Thanks for reaching out! We'll get back to you within 24 hours.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Location & Hours -->
+  <section class="location" id="location">
+    <div class="container location__inner">
+      <div class="location__info">
+        <h2 class="section-title reveal">Find Us</h2>
+        <div class="location__details reveal">
+          <div class="location__block">
+            <h3>Address</h3>
+            <p>42 Cuba Street<br>Te Aro, Wellington 6011<br>New Zealand</p>
+          </div>
+          <div class="location__block">
+            <h3>Opening Hours</h3>
+            <table class="hours-table">
+              <tr><td>Monday – Saturday</td><td>9:00 am – 5:30 pm</td></tr>
+              <tr><td>Sunday</td><td>10:00 am – 4:00 pm</td></tr>
+              <tr><td>Public Holidays</td><td>Check our socials</td></tr>
+            </table>
+          </div>
+          <div class="location__block">
+            <h3>Parking</h3>
+            <p>Street parking available along Cuba Street and surrounding streets. The Cuba Street car park building is a 2-minute walk. We're also an easy stroll from the Wellington Railway Station and multiple bus routes.</p>
+          </div>
+        </div>
+      </div>
+      <div class="location__map reveal">
+        <div class="map-placeholder">
+          <svg viewBox="0 0 500 400" fill="none">
+            <rect width="500" height="400" rx="16" fill="var(--plum-light)"/>
+            <circle cx="250" cy="180" r="60" stroke="var(--plum)" stroke-width="2" fill="none" stroke-dasharray="4 4"/>
+            <circle cx="250" cy="180" r="8" fill="var(--plum)"/>
+            <text x="250" y="280" text-anchor="middle" font-family="Manrope" font-size="16" fill="var(--plum)">42 Cuba Street, Wellington</text>
+            <text x="250" y="310" text-anchor="middle" font-family="Manrope" font-size="13" fill="var(--text-light)">Interactive map coming soon</text>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <svg class="section-divider section-divider--top" viewBox="0 0 1440 60" preserveAspectRatio="none"><path d="M0,0 C360,50 720,15 1080,45 S1380,20 1440,30 L1440,0 L0,0 Z" fill="var(--plum-light)"/></svg>
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="index.html" class="nav__logo">Kōwhai<span>Collective</span></a>
+        <p>Wellington's neighbourhood boutique for curated NZ-made homewares, artisan gifts, skincare, and more.</p>
+      </div>
+      <div class="footer__links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="products.html">Collections</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="reviews.html">Reviews</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer__links">
+        <h4>Collections</h4>
+        <ul>
+          <li><a href="products.html">Homewares &amp; Gifts</a></li>
+          <li><a href="products.html">NZ-Made</a></li>
+          <li><a href="products.html">Skincare &amp; Wellness</a></li>
+          <li><a href="products.html">Candles &amp; Fragrances</a></li>
+          <li><a href="products.html">Kids &amp; Baby</a></li>
+        </ul>
+      </div>
+      <div class="footer__links">
+        <h4>Connect</h4>
+        <ul>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">TikTok</a></li>
+          <li><a href="mailto:hello@kowhaicollective.co.nz">Email Us</a></li>
+          <li><a href="tel:+6443851042">(04) 385 1042</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom container">
+      <p>&copy; 2024 Kōwhai Collective. All rights reserved.</p>
+      <p>Designed by <a href="https://wingfieldgemini.github.io" target="_blank" rel="noopener">WingfieldGemini</a></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
